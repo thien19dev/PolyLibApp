@@ -76,7 +76,7 @@
 //     returnDate: {type:Date},
 // });
 
-// const Borrow = mongoose.model('Borrow', BorrowSchema);
+// const Borrow = mongoose.models('Borrow', BorrowSchema);
 
 // app.post('/api/borrow', async(req, res) => {
 //     const{userId, bookId} = req.body;
